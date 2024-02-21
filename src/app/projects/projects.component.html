@@ -1,0 +1,21 @@
+<div class="projects p-25" #projects>
+    <text-header-component header="Projects"></text-header-component>
+    <p class="sub">(Check my Github to see more)</p>
+    <div class="flex column">
+          <div class="proj flex gap20" *ngFor="let item of items; let i = index;">
+            <div class="flex space-between project">
+                <div class="text-content">
+                    <h3><strong>{{ item.text.title }}</strong></h3>
+                    <p>{{ item.text.description }}</p>
+                    <p><strong>Main Technology:</strong> {{ item.text.mainTechnology }}</p>
+                    <p><strong>State Management:</strong> {{ item.text.stateManagement }}</p>
+                    <p><strong>Database:</strong> {{ item.text.database }}</p>
+                    <p><strong>Style:</strong> {{ item.text.style }}</p>
+                    <p><strong>Libraries:</strong> {{ item.text.libraries }}</p>
+                    <p><strong>Code on: </strong><a href="{{ item.text.code }}" target="_blank">GitHub</a></p>
+                </div>
+                <img [src]="'../../assets/images/projects-images/' + item.imageUrl" alt="slide">
+            </div>
+          </div>
+      </div>
+</div>

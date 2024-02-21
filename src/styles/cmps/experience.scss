@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Chonburi&display=swap');
+
+.experience{
+    font-family: 'Amiri', serif; 
+    h4{
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+    .experience-list{
+        padding-right: 50px;
+        ul{
+            padding-inline-start: 18px;
+            li{
+                line-height: 2rem;
+            }
+        }
+    }
+}

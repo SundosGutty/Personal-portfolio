@@ -1,0 +1,15 @@
+
+// BASICS
+@import 'basics/base';
+@import 'basics/general-helpers';
+@import 'basics/flex';
+@import 'basics/text';
+
+// COMPONENTS
+@import 'cmps/app-header';
+@import 'cmps/about';
+@import 'cmps/proj-preview';
+@import 'cmps/side-nav.scss';
+@import 'cmps/experience.scss';
+@import 'cmps/technologies.scss';
+

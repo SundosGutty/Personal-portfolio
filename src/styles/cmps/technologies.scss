@@ -1,0 +1,36 @@
+.technologies-tools {
+    .tools-container {
+        padding-top: 30px;
+    }
+
+    img{
+        max-width: 20px;
+        mix-blend-mode: multiply;
+    }
+    .tool{
+        display: inline-block;
+    }
+    span{
+        margin-right: 15px;
+        color: #1a1818;
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        border: 0 solid #000;
+        font-family: Montserrat, sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+        text-decoration: none;
+        transition: opacity .3s;
+    
+        &:hover{
+            text-decoration: line-through;
+        }
+    }
+    ul{
+        padding-inline-start: 18px;
+        li{
+            line-height: 1.6rem;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Chonburi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  .proj{
+    margin-bottom: 25px;
+    img {
+      max-width: 50%;
+      height: auto;
+      margin-right: 20px;
+
+    }
+    .text-content{
+      font-family: 'Montserrat', sans-serif;
+      max-width: 50ch;
+    
+    } 
+    .project{
+      @media(max-width: 1000px){
+        flex-direction: column !important;
+      }
+  }
+}
+
+.sub{
+  margin-top: -26px;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}

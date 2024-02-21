@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Chonburi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.side-nav{
+    z-index: 600;
+    width: 6%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+
+    div{
+        flex: 0 auto;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 15px;
+        transform: rotate(-90deg);
+
+        a{
+            color: #1a1818;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 0 solid #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: opacity .3s;
+    display: block;
+
+    &:hover{
+        text-decoration: line-through;
+    }
+        }
+    }
+
+}
